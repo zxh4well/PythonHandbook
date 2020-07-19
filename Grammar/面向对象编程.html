@@ -1,0 +1,679 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>面向对象编程 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Promote/" />
+    
+    
+    <link rel="prev" href="语句函数综合.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Based/">
+            
+                <a href="../Based/">
+            
+                    
+                    Python第一部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Based/Python介绍.html">
+            
+                <a href="../Based/Python介绍.html">
+            
+                    
+                    Python介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Based/Python基础.html">
+            
+                <a href="../Based/Python基础.html">
+            
+                    
+                    Python基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Based/复合数据类型.html">
+            
+                <a href="../Based/复合数据类型.html">
+            
+                    
+                    复合数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python第二部分
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="语句函数综合.html">
+            
+                <a href="语句函数综合.html">
+            
+                    
+                    语句函数综合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="面向对象编程.html">
+            
+                <a href="面向对象编程.html">
+            
+                    
+                    面向对象编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Promote/">
+            
+                <a href="../Promote/">
+            
+                    
+                    Python第三部分
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >面向对象编程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;">&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;</h1>
+<p>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x548C;&#x9762;&#x5411;&#x8FC7;&#x7A0B;&#x662F;&#x7F16;&#x7A0B;&#x7684;&#x4E24;&#x79CD;&#x601D;&#x7EF4;&#x65B9;&#x5F0F;&#xFF0C;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x6CA1;&#x6709;&#x597D;&#x574F;&#x4E4B;&#x5206;&#xFF0C;&#x9002;&#x5408;&#x7684;&#x60C5;&#x51B5;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x9002;&#x5408;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;python&#x652F;&#x6301;&#x8FD9;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x3002;</p>
+<p> <strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#xFF0C;&#x91CD;&#x8981;&#x7684;&#x4E0D;&#x662F;&#x6B65;&#x9AA4;&#xFF0C;&#x800C;&#x662F;&#x5BF9;&#x8C61;</strong></p>
+<ul>
+<li>&#x5BF9;&#x8C61;&#x662F;&#x5185;&#x5B58;&#x4E2D;&#x4E13;&#x95E8;&#x7528;&#x6765;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x7684;&#x4E00;&#x5757;&#x533A;&#x57DF;&#x3002;</li>
+<li>&#x5BF9;&#x8C61;&#x662F;&#x4E00;&#x7C7B;&#x4E8B;&#x7269;&#x3001;&#x89C4;&#x5219;&#x3001;&#x4E8B;&#x4EF6;&#x7684;&#x96C6;&#x5408;&#x3002;</li>
+</ul>
+<p>&#x5BF9;&#x8C61;&#x5177;&#x6709;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x7528;&#x6570;&#x636E;&#x503C;&#x6765;&#x63CF;&#x8FF0;&#x5B83;&#x7684;&#x72B6;&#x6001;&#x3002;&#x5BF9;&#x8C61;&#x8FD8;&#x6709;&#x64CD;&#x4F5C;&#xFF0C;&#x7528;&#x4E8E;&#x6539;&#x53D8;&#x5BF9;&#x8C61;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x64CD;&#x4F5C;&#x5C31;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x884C;&#x4E3A;&#x3002;&#x5BF9;&#x8C61;&#x5B9E;&#x73B0;&#x4E86;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x7684;&#x7ED3;&#x5408;&#xFF0C;&#x4F7F;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x5C01;&#x88C5;&#x4E8E;&#x5BF9;&#x8C61;&#x7684;&#x7EDF;&#x4E00;&#x4F53;&#x4E2D;&#x3002;<strong>&#x72B6;&#x6001;&#xFF1A;&#x64CD;&#x4F5C;  ==  &#x5C5E;&#x6027;&#xFF1A;&#x65B9;&#x6CD5;</strong>&#x3002;</p>
+<p>&#x5BF9;&#x8C61;&#x662F;&#x4EBA;&#x4EEC;&#x8981;&#x8FDB;&#x884C;&#x7814;&#x7A76;&#x7684;&#x4EFB;&#x4F55;&#x4E8B;&#x7269;&#xFF0C;&#x5B83;&#x4E0D;&#x4EC5;&#x80FD;&#x8868;&#x793A;&#x5177;&#x4F53;&#x7684;&#x4E8B;&#x7269;&#xFF0C;&#x8FD8;&#x80FD;&#x8868;&#x793A;&#x62BD;&#x8C61;&#x7684;&#x89C4;&#x5219;&#x3001;&#x8BA1;&#x5212;&#x6216;&#x4E8B;&#x4EF6;&#x3002;</p>
+<ul>
+<li>&#x901A;&#x8FC7;&#x7C7B;&#x5B9A;&#x4E49;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5B9E;&#x4F8B;&#x3002;</li>
+</ul>
+<p><strong>&#xFF01;&#x7C7B;</strong></p>
+<ol>
+<li><p><strong>&#x7C7B;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x84DD;&#x56FE;</strong>&#xFF1B;&#x7C7B;&#x662F;&#x7528;&#x6765;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x7C7B;&#x662F;type&#x7C7B;&#x578B;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5B9A;&#x4E49;&#x7C7B;&#x5B9E;&#x9645;&#x4E0A;&#x5C31;&#x662F;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;type&#x7C7B;&#x578B;&#x7684;&#x5BF9;&#x8C61;&#x3002;</p>
+</li>
+<li><p>&#x7C7B;&#x662F;&#x7528;&#x6765;&#x63CF;<strong>&#x8FF0;&#x5177;&#x6709;&#x76F8;&#x540C;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x5BF9;&#x8C61;&#x7684;&#x96C6;&#x5408;</strong>&#x3002;</p>
+<p>&#x96C6;&#x5408;&#x5B9A;&#x4E49;&#x4E86;&#x7531;&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x6240;&#x5171;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#xFF0C;&#x901A;&#x8FC7;&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#x5C31;&#x662F;&#x5B9E;&#x4F8B;&#x3002;</p>
+</li>
+</ol>
+<p><strong><code>&#x7C7B;</code>&#x5728;&#x5B9E;&#x4F8B;&#x5316;&#x4E4B;&#x540E;&#x53EB;&#x505A;&#x4E00;&#x4E2A;<code>&#x5B9E;&#x4F8B;</code></strong>&#xFF1A;&#x201C;&#x7C7B;&#x201D;&#x662F;&#x9759;&#x6001;&#x7684;&#xFF0C;&#x4E0D;&#x5360;&#x8FDB;&#x7A0B;&#x5185;&#x5B58;&#xFF0C;&#x800C;&#x201C;&#x5B9E;&#x4F8B;&#x201D;&#x62E5;&#x6709;&#x52A8;&#x6001;&#x5185;&#x5B58;&#x3002;</p>
+<p>&#x5BF9;&#x8C61;&#x4EE3;&#x8868;&#x4E86;&#x7C7B;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x5B9E;&#x4F8B;&#x3002;&#x5BF9;&#x8C61;&#x5177;&#x6709;&#x8EAB;&#x4EFD;&#xFF08;identity&#xFF09;&#x3001;&#x7C7B;&#x578B;&#xFF08;type&#xFF09;&#x3001;&#x548C;&#x5C5E;&#x6027;&#x503C;&#xFF08;attribute values&#xFF09;3&#x4E2A;&#x7279;&#x5F81;&#x3002;&#x5B9E;&#x4F8B;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5177;&#x4F53;&#x8868;&#x73B0;&#xFF0C;&#x5B9E;&#x4F8B;&#x88AB;&#x7528;&#x6765;&#x6A21;&#x62DF;&#x73B0;&#x5B9E;&#x4E16;&#x754C;&#x4E2D;&#x5B58;&#x5728;&#x7684;&#x3001;&#x5177;&#x4F53;&#x7684;&#x6216;&#x539F;&#x578B;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x7531;&#x62BD;&#x8C61;&#x8D70;&#x5411;&#x5177;&#x4F53;&#x3002;</p>
+<p>&#x6240;&#x6709;&#x7684;&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x5B9E;&#x4F8B;&#xFF0C;&#x4F46;&#x5E76;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F8B;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#x3002;&#x9664;&#x4E86;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5916;&#x7684;&#x5B9E;&#x4F8B;&#x90FD;&#x4E0D;&#x662F;&#x5BF9;&#x8C61;&#x3002;</p>
+<h2 id="&#x4F7F;&#x7528;class&#x6765;&#x5B9A;&#x4E49;&#x7C7B;"><strong>&#x4F7F;&#x7528;class&#x6765;&#x5B9A;&#x4E49;&#x7C7B;</strong></h2>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> &#x7C7B;&#x540D;<span class="hljs-params">([&#x7236;&#x7C7B;])</span> :</span>
+    &#x516C;&#x5171;&#x7684;&#x5C5E;&#x6027;...
+
+    <span class="hljs-comment"># &#x5BF9;&#x8C61;&#x7684;&#x521D;&#x59CB;&#x5316;&#x65B9;&#x6CD5;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,...)</span>:</span>
+        ...
+
+    <span class="hljs-comment"># &#x5176;&#x4ED6;&#x7684;&#x65B9;&#x6CD5;    </span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">method_1</span><span class="hljs-params">(self,...)</span>:</span>
+        ...
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">method_2</span><span class="hljs-params">(self,...)</span>:</span>
+        ...
+
+    ...
+</code></pre>
+<p>&#x7C7B;&#x548C;&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x5BF9;&#x73B0;&#x5B9E;&#x751F;&#x6D3B;&#x4E2D;&#x7684;&#x4E8B;&#x7269;&#x6216;&#x5185;&#x5BB9;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x4E8B;&#x7269;&#x90FD;&#x5177;&#x5907;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;</p>
+<ul>
+<li>&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x516C;&#x5171;&#x7684;&#xFF0C;&#x4EFB;&#x4F55;&#x8BE5;&#x7C7B;&#x5B9E;&#x4F8B;&#x90FD;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x3002;&#x7C7B;&#x4E2D;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x67E5;&#x627E;&#x7684;<strong>&#x6D41;&#x7A0B;</strong>&#xFF1A;</li>
+</ul>
+<p>&#x5F53;&#x8C03;&#x7528;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x65F6;&#xFF0C;&#x89E3;&#x6790;&#x5668;&#x4F1A;&#x5728;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x4E2D;&#x67E5;&#x627E;&#x662F;&#x5426;&#x542B;&#x6709;&#x8BE5;&#x5C5E;&#x6027;&#x3002;&#x5982;&#x679C;&#x6709;&#xFF0C;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x5C5E;&#x6027;&#x503C;&#xFF0C;&#x5426;&#x5219;&#x53BB;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x7684;&#x7C7B;&#x5BF9;&#x8C61;&#x4E2D;&#x5BFB;&#x627E;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x5219;&#x8FD4;&#x56DE;&#x7C7B;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x503C;&#x3002;</p>
+<ul>
+<li>&#x7C7B;&#x5BF9;&#x8C61;&#x548C;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#x90FD;&#x53EF;&#x4EE5;&#x4FDD;&#x5B58;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#xFF1A;</li>
+</ul>
+<p>&#x5982;&#x679C;&#x8FD9;&#x4E2A;<strong>&#x5C5E;&#x6027;&#xFF08;&#x65B9;&#x6CD5;&#xFF09;&#x662F;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F8B;&#x5171;&#x4EAB;&#x7684;&#xFF0C;&#x5219;&#x5E94;&#x8BE5;&#x5C06;&#x5176;&#x4FDD;&#x5B58;&#x5230;&#x7C7B;&#x5BF9;&#x8C61;&#x4E2D;</strong>&#xFF1B;&#x5982;&#x679C;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#xFF08;&#x65B9;&#x6CD5;&#xFF09;&#x662F;&#x67D0;&#x4E2A;<strong>&#x5B9E;&#x4F8B;&#x72EC;&#x6709;&#xFF0C;&#x5219;&#x5E94;&#x8BE5;&#x4FDD;&#x5B58;&#x5230;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;</strong>&#x3002;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5C5E;&#x6027;&#x4FDD;&#x5B58;&#x5230;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x800C;&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x5230;&#x7C7B;&#x5BF9;&#x8C61;&#x4E2D;&#x3002;  </p>
+<ul>
+<li><strong>self&#x53C2;&#x6570;&#x8BE6;&#x89E3;</strong></li>
+</ul>
+<p>&#x7C7B;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&#x65F6;&#xFF0C;&#x89E3;&#x6790;&#x5668;&#x90FD;&#x4F1A;&#x9ED8;&#x8BA4;&#x9996;&#x5148;&#x4F20;&#x9012;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x7ED9;&#x8BE5;&#x65B9;&#x6CD5;&#x3002;&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x7684;&#x5BF9;&#x8C61;&#x672C;&#x8EAB;&#x2014;&#x2014;&#x4E00;&#x822C;&#x4E3A;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x3002;&#x4E00;&#x822C;&#x5C06;&#x8BE5;&#x53C2;&#x6570;&#x547D;&#x540D;&#x4E3A;self&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span>:</span><span class="hljs-comment"># &#x7C7B;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x4EE5;&#x4E0D;&#x5E26;&#x7236;&#x7C7B;&#xFF0C;&#x5EFA;&#x8BAE;&#x7C7B;&#x540D;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</span>
+    name = <span class="hljs-string">&apos;snake&apos;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say</span><span class="hljs-params">(self)</span>:</span> <span class="hljs-comment"># self&#x662F;&#x5FC5;&#x987B;&#x7684;&#x53C2;&#x6570;</span>
+        print(<span class="hljs-string">&apos;&#x4F60;&#x597D;!&apos;</span>)
+
+p1 = Person() <span class="hljs-comment"># &#x521B;&#x5EFA;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;p1</span>
+
+p1.say() <span class="hljs-comment"># p1&#x8C03;&#x7528;say&#xFF08;&#xFF09;&#x65B9;&#x6CD5;</span>
+<span class="hljs-comment"># say&#x65B9;&#x6CD5;&#x4E2D;&#x7684;self&#x5C31;&#x662F;&#x6307;p1</span>
+</code></pre>
+<p>&#x5728;&#x5B9A;&#x4E49;&#x7C7B;&#x7684;&#x65F6;&#x5019;&#x65B9;&#x6CD5;&#x4E2D;&#x7684;&#x53C2;&#x6570;&#x603B;&#x662F;&#x6BD4;&#x5B9E;&#x9645;&#x53C2;&#x6570;&#x591A;&#x4E00;&#x4E2A;&#xFF0C;&#x4E14;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x6C38;&#x8FDC;&#x90FD;&#x662F;<strong>self</strong>&#x3002;</p>
+<h2 id="&#x7528;&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x5BF9;&#x8C61;">&#x7528;&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x5BF9;&#x8C61;</h2>
+<ul>
+<li>&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5316;&#xFF1A;&#x901A;&#x5E38;&#x628A;&#x7528;&#x7C7B;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x8FC7;&#x7A0B;&#x79F0;&#x4E3A;&#x5B9E;&#x4F8B;&#x5316;&#x3002;</li>
+</ul>
+<p>&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5316;&#x6982;&#x5FF5;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;<strong>&#x6A21;&#x677F;&#x4E4B;&#x4F59;&#x4EA7;&#x54C1;</strong>&#x3002;&#x7C7B;&#x662F;&#x4E00;&#x4E2A;&#x6A21;&#x677F;&#xFF0C;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5316;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x5C06;&#x6A21;&#x677F;&#x5236;&#x4F5C;&#x4E3A;&#x4EA7;&#x54C1;&#x3002;&#x4EA7;&#x54C1;&#x53EF;&#x4EE5;&#x62E5;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x7279;&#x70B9;&#xFF08;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x4E0E;&#x6A21;&#x677F;&#x76F8;&#x540C;(&#x7C7B;)&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Myclass</span><span class="hljs-params">()</span>:</span> 
+    <span class="hljs-keyword">pass</span>         <span class="hljs-comment"># &#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x7A7A;&#x7684;&#x7C7B;</span>
+
+mc = MyClass() <span class="hljs-comment"># mc&#x5C31;&#x662F;&#x901A;&#x8FC7;MyClass&#x521B;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;mc&#x662F;MyClass&#x7684;&#x5B9E;&#x4F8B;</span>
+</code></pre>
+<p>Python&#x521B;&#x5EFA;&#x6709;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF0C;&#x6B64;&#x524D;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x6570;&#x5B57;&#x3001;&#x6570;&#x7EC4;&#x3001;&#x5B57;&#x5178;&#x90FD;&#x662F;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF0C;&#x90FD;&#x5177;&#x6709;&#x5176;&#x76F8;&#x5E94;&#x7684;&#x7C7B;&#x3002;</p>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x8C03;&#x7528;&#x6570;&#x7EC4;&#x7684;length&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x5C31;&#x662F;&#x5728;&#x8C03;&#x7528;&#x8BE5;&#x7C7B;&#x578B;&#x7684;&#x5185;&#x7F6E;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x4E00;&#x822C;&#x6D41;&#x7A0B;&#xFF1A;mc = Myclass&#xFF08;&#xFF09;</p>
+<ul>
+<li>&#x521B;&#x5EFA;&#x53D8;&#x91CF;</li>
+<li>&#x521B;&#x5EFA;&#x5BF9;&#x8C61;</li>
+<li>&#x628A;&#x5BF9;&#x8C61;&#x7684;&#x5730;&#x5740;&#x8D4B;&#x503C;&#x7ED9;&#x53D8;&#x91CF;&#x2014;&#x2014;&#x8BA9;&#x53D8;&#x91CF;&#x6307;&#x5411;&#x5BF9;&#x8C61;&#x3002;</li>
+</ul>
+<p><strong>&#x7C7B;&#x4E0E;&#x5BF9;&#x8C61;&#x7684;&#x5173;&#x7CFB;&#xFF1A;</strong></p>
+<p>&#x4E00;&#x4E2A;&#x7C7B;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x591A;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x591A;&#x4E2A;&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x5171;&#x4EAB;&#x4E00;&#x4E2A;&#x7C7B;&#x3002;&#x7C7B;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x5BF9;&#x4E8E;&#x4F7F;&#x7528;&#x8BE5;&#x7C7B;&#x521B;&#x5EFA;&#x7684;&#x6240;&#x6709;&#x5BF9;&#x8C61;&#x90FD;&#x662F;<strong>&#x901A;&#x7528;</strong>&#x7684;&#x3002;&#x7C7B;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;&#x6539;&#x53D8;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x65B9;&#x6CD5;&#x4F1A;&#x53D1;&#x751F;&#x5BF9;&#x5E94;&#x7684;&#x6539;&#x53D8;&#xFF0C;&#x800C;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x7C7B;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x6539;&#x53D8;&#x5E76;<strong>&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;</strong>&#x5176;&#x4ED6;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x5BF9;&#x7C7B;&#x9020;&#x6210;&#x6539;&#x53D8;&#x3002;</p>
+<p><img src="http://twowaterimage.oss-cn-beijing.aliyuncs.com/2019-10-09-040408.png" alt="sd" style="zoom:67%;"></p>
+<p><strong>slef&#xFF0C;&#x5728;&#x7C7B;&#x4E2D;&#x8C03;&#x7528;&#x7C7B;&#x7684;&#x5C5E;&#x6027;</strong>&#xFF1A;</p>
+<pre><code class="lang-python"><span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x81EA;&#x6211;&#x4ECB;&#x7ECD;&#x7684;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">People</span><span class="hljs-params">()</span>:</span>
+    name = <span class="hljs-string">&apos;tom&apos;</span> 
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;Hello! My name is %s.&apos;</span> %self.name)
+
+P = People()
+p.say() <span class="hljs-comment"># Hello! My name is tom.</span>
+</code></pre>
+<h2 id="&#x7C7B;&#x7684;&#x91CD;&#x5199;">&#x7C7B;&#x7684;&#x91CD;&#x5199;</h2>
+<p>&#x7C7B;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x79F0;&#x4E3A;&#x7C7B;&#x65B9;&#x6CD5;&#xFF0C;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x79F0;&#x4E3A;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#xFF0C;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x65E0;&#x6CD5;&#x4FEE;&#x6539;&#xFF0C;&#x9664;&#x975E;&#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+<ul>
+<li>&#x91CD;&#x5199;&#x7684;&#x7B2C;&#x4E00;&#x65B9;&#x6CD5;&#xFF1A;&#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x6E90;&#x4EE3;&#x7801;&#x2014;&#x2014;&#x7701;&#x65F6;&#x95F4;&#xFF0C;&#x65B9;&#x4FBF;</li>
+<li>&#x91CD;&#x5199;&#x7684;&#x7B2C;&#x4E00;&#x65B9;&#x6CD5;&#xFF1A;&#x8865;&#x4E01;&#x4FEE;&#x6539;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">People</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7C7B;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say_hello</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;Hello! My name is Peter.&apos;</span>)
+
+<span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;</span>
+p = People()
+
+<span class="hljs-comment"># &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x4FEE;&#x6539;&#x7C7B;&#x4E2D;&#x5BF9;&#x8C61;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x5F53;&#x7136;&#xFF0C;&#x53C2;&#x6570;&#x5E94;&#x8BE5;&#x4E0E;&#x539F;&#x65B9;&#x6CD5;&#x76F8;&#x4E00;&#x81F4;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
+    print(<span class="hljs-string">&apos;I am runing!&apos;</span>)
+
+
+<span class="hljs-comment"># &#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x4E86; &#x7C7B;.&#x539F;&#x59CB;&#x51FD;&#x6570; = &#x65B0;&#x51FD;&#x6570; &#x5C31;&#x5B8C;&#x4E86;&#x7C7B;&#x65B9;&#x6CD5;&#x7684;&#x91CD;&#x5199;</span>
+People.say_hello = run
+</code></pre>
+<p>&#x8981;<strong>&#x6CE8;&#x610F;</strong>&#xFF1A;</p>
+<p>&#x8FD9;&#x91CC;&#x7684;&#x8D4B;&#x503C;&#x662F;&#x5728;&#x66FF;&#x6362;&#x65B9;&#x6CD5;&#xFF0C;&#x4E0D;&#x662F;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x3002;&#x6240;&#x4EE5;&#x4E0D;&#x80FD;&#x52A0;&#x4E0A;&#x62EC;&#x53F7;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;<strong>&#x7C7B;.&#x539F;&#x59CB;&#x51FD;&#x6570;() = &#x65B0;&#x51FD;&#x6570;()</strong>       <strong>&#xFF01;Wrong</strong> </p>
+<p><strong>&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x6539;&#x53D8;&#x5BF9;&#x7C7B;&#x65B9;&#x6CD5;&#x4E0D;&#x4EA7;&#x751F;&#x5F71;&#x54CD;</strong>&#xFF0C;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x7684;&#x6539;&#x5199;&#x53EA;&#x5BF9;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4EA7;&#x751F;&#x5F71;&#x54CD;&#x3002;</p>
+<p><strong>Python&#x4E2D;&#x53EF;&#x4EE5;&#x52A8;&#x6001;&#x7ED9;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x6DFB;&#x52A0;&#x5C5E;&#x6027;&#xFF0C;&#x4E0D;&#x80FD;&#x7ED9;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x52A8;&#x6001;&#x521B;&#x5EFA;&#x65B9;&#x6CD5;&#xFF0C;&#x9664;&#x975E;&#x4F7F;&#x7528;types&#x6A21;&#x5757;&#x3002;</strong></p>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> types
+<span class="hljs-comment">#&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-keyword">pass</span>
+
+<span class="hljs-comment">#&#x5B9E;&#x4F8B;&#x8BDD;&#x4E00;&#x4E2A;Cat&#x5BF9;&#x8C61;</span>
+c = Cat()
+<span class="hljs-comment">#&#x5411;&#x7C7B;&#x4E2D;&#x52A8;&#x6001;&#x5C5E;&#x6027;</span>
+c.color = <span class="hljs-string">&quot;white&quot;</span>
+print(c.color)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">eat</span><span class="hljs-params">(self)</span>:</span>
+    print(<span class="hljs-string">&quot;&#x732B;&#x5728;&#x5403;&#x4E1C;&#x897F;&#x3002;&#x3002;&quot;</span>)
+
+<span class="hljs-comment"># c.eat = eat is wrong</span>
+<span class="hljs-comment">#&#x5411;&#x7C7B;&#x4E2D;&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x65B9;&#x6CD5;</span>
+c.eat = types.MethodType(eat, c)
+c.eat()
+</code></pre>
+<p><strong>types.MethodType</strong>&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x672C;&#x8EAB;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x5728;&#x8C03;&#x7528;&#x8BE5;&#x51FD;&#x6570;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x3002;</p>
+<p><strong>&#x52A8;&#x6001;&#x5220;&#x9664;&#x548C;&#x65B9;&#x6CD5;</strong>&#xFF1A;del &#x5BF9;&#x8C61;.&#x5C5E;&#x6027;&#x540D;&#x3001;&#x6216;&#x8005;&#x3001;delattr(&#x5BF9;&#x8C61;,&quot;&#x5C5E;&#x6027;&#x540D;&quot;)</p>
+<h2 id="initself"><code>__init__(self)</code></h2>
+<p>&#x521D;&#x59CB;&#x5316;&#x51FD;&#x6570;&#x53C8;&#x79F0;&#x4E3A;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x8FD9;&#x662F;&#x5728;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x3002;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x4EE5;<code>__</code>&#x5F00;&#x59CB;&#xFF0C;&#x4EE5;<code>__</code>&#x7ED3;&#x675F;&#xFF0C;&#x6B8A;&#x65B9;&#x6CD5;&#x4E0D;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5B9A;&#x4E49;&#xFF0C;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x523B;&#x610F;&#x8C03;&#x7528;&#xFF0C;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x4F1A;&#x5728;&#x7279;&#x6B8A;&#x65F6;&#x523B;&#x81EA;&#x5DF1;&#x8C03;&#x7528;&#x3002;</p>
+<p> <strong>&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x5728;&#x6211;&#x4EEC;&#x5C06;&#x5BF9;&#x8C61;&#x7684;id&#xFF08;&#x5730;&#x5740;&#xFF09;&#x8D4B;&#x503C;&#x7ED9;&#x53D8;&#x91CF;&#x4E4B;&#x524D;&#x8C03;&#x7528;</strong>&#xFF1A;</p>
+<p>&#x200B;        1.&#x521B;&#x5EFA;&#x53D8;&#x91CF;</p>
+<p>&#x200B;        2.&#x5185;&#x5B58;&#x4E2D;&#x521B;&#x5EFA;&#x65B0;&#x5BF9;&#x8C61;</p>
+<p>&#x200B;        3.<strong>init</strong>(self)&#x65B9;&#x6CD5;&#x6267;&#x884C;</p>
+<p>&#x200B;        4.&#x5C06;&#x5BF9;&#x8C61;&#x7684;id&#x8D4B;&#x503C;&#x7ED9;&#x53D8;&#x91CF;</p>
+<p>init&#x4F1A;&#x5728;&#x5BF9;&#x8C61;&#x521B;&#x5EFA;&#x4EE5;&#x540E;&#x7ACB;&#x523B;&#x5F00;&#x59CB;&#x6267;&#x884C;&#xFF0C;&#x53EF;&#x4EE5;&#x521D;&#x59CB;&#x5316;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x3002;&#x7528;&#x7C7B;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x65F6;&#xFF08;&#x5BF9;&#x8C61;&#x5B9E;&#x4F8B;&#x5316;&#x65F6;&#xFF09;&#xFF0C;<strong>&#x7C7B;&#x540D;&#xFF08;&#xFF09;&#x91CC;&#x7684;&#x6240;&#x6709;&#x53C2;&#x6570;&#x90FD;&#x4F1A;&#x4F9D;&#x6B21;&#x4F20;&#x9012;&#x5230;init()&#x4E2D;</strong>&#xFF0C;&#x4E0D;&#x8FC7;&#x9996;&#x5148;&#x4F20;&#x9012;&#x7684;&#x8FD8;&#x662F;self&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name)</span>:</span>
+        <span class="hljs-comment"># print(self)</span>
+        <span class="hljs-comment"># &#x901A;&#x8FC7;self&#x5411;&#x65B0;&#x5EFA;&#x7684;&#x5BF9;&#x8C61;&#x4E2D;&#x521D;&#x59CB;&#x5316;&#x5C5E;&#x6027;</span>
+        self.name = name
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;&#x4F60;&#x597D;&#xFF0C;&#x6211;&#x662F;%s&apos;</span>%self.name)
+
+p1 = Person(<span class="hljs-string">&apos;&#x5F20;&#x4E09;&apos;</span>)
+
+print(p1.name)<span class="hljs-comment"># &#x5F20;&#x4E09;</span>
+p1.say()<span class="hljs-comment"># &#x4F60;&#x597D;&#xFF0C;&#x6211;&#x662F;&#x5F20;&#x4E09;</span>
+</code></pre>
+<p>&#x5047;&#x8BBE;&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4EBA;&#x8FD9;&#x4E2A;&#x7C7B;&#x90FD;&#x5177;&#x6709;&#x540D;&#x5B57;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x5E76;&#x4E14;&#x6BCF;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;name&#x5C5E;&#x6027;&#x57FA;&#x672C;&#x4E0A;&#x90FD;&#x662F;&#x4E0D;&#x540C;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;init&#x6765;&#x7ED9;&#x6240;&#x6709;&#x5BF9;&#x8C61;&#x8D4B;&#x503C;&#xFF1A;</p>
+<p>&#x4E4B;&#x524D;&#x6211;&#x4EEC;&#x662F;&#x5C06;name&#x5C5E;&#x6027;&#x5728;&#x5B9A;&#x4E49;&#x4E3A;&#x5BF9;&#x8C61;&#x4EE5;&#x540E;&#xFF0C;&#x624B;&#x52A8;&#x6DFB;&#x52A0;&#x5230;&#x5BF9;&#x8C61;&#x4E2D;&#xFF0C;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5F88;&#x5BB9;&#x6613;&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x3002;&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#xFF0C;&#x5728;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5FC5;&#x987B;&#x8BBE;&#x7F6E;name&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x8BBE;&#x7F6E;&#x5BF9;&#x8C61;&#x5C06;&#x65E0;&#x6CD5;&#x521B;&#x5EFA;&#xFF0C;&#x5E76;&#x4E14;&#x5C5E;&#x6027;&#x7684;&#x521B;&#x5EFA;&#x5E94;&#x8BE5;&#x662F;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x3002;</p>
+<h2 id="&#x4E09;&#x5927;&#x7279;&#x6027;">&#x4E09;&#x5927;&#x7279;&#x6027;</h2>
+<p>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x62E5;&#x6709;&#x4E09;&#x5927;&#x7279;&#x6027;&#xFF1A;&#x5C01;&#x88C5;&#x3001;&#x7EE7;&#x627F;&#x3001;&#x591A;&#x6001;&#x3002;</p>
+<p><img src="https://images.cnblogs.com/cnblogs_com/clongge/o_OOBase.gif" alt="&#x7279;ss&#x6027;" style="zoom: 80%;"></p>
+<p><strong>&#x4E00;&#x3001;&#x5C01;&#x88C5;</strong>&#xFF1A;&#x9690;&#x85CF;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x65B9;&#x6CD5;&#xFF0C;&#x4F7F;&#x5916;&#x90E8;&#x4E0D;&#x80FD;&#x8BBF;&#x95EE;&#x3002;</p>
+<p>Python&#x6CA1;&#x529E;&#x6CD5;&#x505A;&#x5230;&#x5B8C;&#x5168;&#x9690;&#x533F;&#x4FE1;&#x606F;&#xFF0C;&#x539F;&#x56E0;&#x5728;&#x4E8E;Python&#x662F;&#x4E00;&#x95E8;&#x89E3;&#x91CA;&#x6027;&#x8BED;&#x8A00;&#xFF0C;&#x4E0D;&#x662F;&#x6C47;&#x7F16;&#x578B;&#x8BED;&#x8A00;&#xFF0C;&#x65E0;&#x6CD5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;&#xFF0C;&#x8FD9;&#x91CC;&#x8BF4;&#x7684;&#x6240;&#x6709;&#x7684;&#x5C01;&#x88C5;&#xFF0C;&#x90FD;&#x662F;&#x5047;&#x6027;&#xFF0C;&#x53EA;&#x662F;&#x4E3A;&#x4E86;&#x89C4;&#x8303;&#x4EE3;&#x7801;&#x7684;&#x8C03;&#x7528;&#x3002;Python&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#x6765;&#x9690;&#x85CF;&#x5C5E;&#x6027;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x5C5E;&#x6027;&#x65F6;&#x4F7F;&#x7528;&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x5F00;&#x5934;&#xFF0C;<code>__xxx</code>&#x7684;&#x65B9;&#x5F0F;&#x8FDB;&#x884C;&#x9690;&#x85CF;&#x3002;</p>
+<p>&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x5F00;&#x5934;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x9690;&#x85CF;&#x5C5E;&#x6027;&#xFF0C;&#x9690;&#x85CF;&#x5C5E;&#x6027;<code>&#x53EA;&#x80FD;</code>&#x5728;&#x7C7B;&#x7684;&#x5185;&#x90E8;&#x8BBF;&#x95EE;&#xFF0C;<code>&#x65E0;&#x6CD5;</code>&#x901A;&#x8FC7;&#x5BF9;&#x8C61;&#x8BBF;&#x95EE;&#x3002;&#x9690;&#x85CF;&#x5C5E;&#x6027;&#x53EA;&#x4E0D;&#x8FC7;&#x662F;Python&#x81EA;&#x52A8;&#x4E3A;&#x5C5E;&#x6027;&#x6539;&#x4E86;&#x4E00;&#x4E2A;&#x540D;&#x5B57;,&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5C06;&#x540D;&#x5B57;&#x4FEE;&#x6539;&#x4E3A;&#xFF0C;<strong><em>&#x7C7B;&#x540D;`_</em>`&#x5C5E;&#x6027;&#x540D;</strong> &#x6BD4;&#x5982; <code>__</code>name -&gt; _&#x7C7B;&#x540D;__name&#x3002;</p>
+<p><strong>&#x901A;&#x8FC7;getter&#x548C;setter&#x65B9;&#x6CD5;&#x64CD;&#x4F5C;&#x5C01;&#x88C5;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x3002;getter&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5C5E;&#x6027;&#xFF0C;setter&#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x5C5E;&#x6027;&#x3002;</strong></p>
+<ul>
+<li>getter &#x83B7;&#x53D6;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x6307;&#x5B9A;&#x5C5E;&#x6027;&#xFF08;get_&#x5C5E;&#x6027;&#x540D;&#xFF09;</li>
+<li>setter &#x7528;&#x6765;&#x8BBE;&#x7F6E;&#x5BF9;&#x8C61;&#x7684;&#x6307;&#x5B9A;&#x5C5E;&#x6027;&#xFF08;set_&#x5C5E;&#x6027;&#x540D;&#xFF09;</li>
+</ul>
+<p>&#x901A;&#x8FC7;property&#x88C5;&#x9970;&#x5668;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x4E00;&#x4E2A;get&#x65B9;&#x6CD5;&#x8F6C;&#x6362;&#x4E3A;<strong>&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;</strong>&#xFF0C;&#x6DFB;&#x52A0;property&#x88C5;&#x9970;&#x5668;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x50CF;&#x8C03;&#x7528;&#x5C5E;&#x6027;&#x4E00;&#x6837;&#x4F7F;&#x7528;get&#x65B9;&#x6CD5;&#xFF0C;setter&#x65B9;&#x6CD5;&#x4E5F;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x7B80;&#x5316;&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name,age)</span>:</span>
+        self._name = name
+        self._age = age
+    <span class="hljs-comment"># &#x6DFB;&#x52A0;&#x4E3A;property&#x88C5;&#x9970;&#x5668;&#x4EE5;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x50CF;&#x8C03;&#x7528;&#x5C5E;&#x6027;&#x4E00;&#x6837;&#x4F7F;&#x7528;get&#x65B9;&#x6CD5;</span>
+    <span class="hljs-comment"># &#x4F7F;&#x7528;property&#x88C5;&#x9970;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5FC5;&#x987B;&#x548C;&#x5C5E;&#x6027;&#x540D;&#x662F;&#x4E00;&#x6837;&#x7684;---IMPORTANT</span>
+<span class="hljs-meta">    @property    </span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">name</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;get_name&#x65B9;&#x6CD5;&#x88AB;&#x6267;&#x884C;&apos;</span>)
+        <span class="hljs-keyword">return</span> self._name
+
+    <span class="hljs-comment"># setter&#x65B9;&#x6CD5;&#x7684;&#x88C5;&#x9970;&#x5668;&#xFF1A;@&#x5C5E;&#x6027;&#x540D;.setter</span>
+<span class="hljs-meta">    @name.setter    </span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">name</span><span class="hljs-params">(self , name)</span>:</span>
+        print(<span class="hljs-string">&apos;setter name&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&apos;</span>)
+        self._name = name        
+
+<span class="hljs-meta">    @property</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">age</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&apos;get_age&#x65B9;&#x6CD5;&#x88AB;&#x6267;&#x884C;&apos;</span>)
+        <span class="hljs-keyword">return</span> self._age
+
+<span class="hljs-meta">    @age.setter    </span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">age</span><span class="hljs-params">(self , age)</span>:</span>
+        print(<span class="hljs-string">&apos;setter age&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;&apos;</span>)
+        self._age = age   
+
+
+<span class="hljs-comment"># &#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;</span>
+p = Person(<span class="hljs-string">&apos;&#x5F20;&#x4E09;&apos;</span>,<span class="hljs-number">18</span>)
+
+<span class="hljs-comment"># &#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x5C5E;&#x6027;&#x5316;&#x6765;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;</span>
+p.name = <span class="hljs-string">&apos;&#x5B59;&#x609F;&#x7A7A;&apos;</span><span class="hljs-comment"># setter name&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;</span>
+p.age = <span class="hljs-number">28</span><span class="hljs-comment"># setter age&#x65B9;&#x6CD5;&#x88AB;&#x8C03;&#x7528;</span>
+
+
+print(p.name,p.age)
+<span class="hljs-comment"># get_name&#x65B9;&#x6CD5;&#x88AB;&#x6267;&#x884C;</span>
+<span class="hljs-comment"># get_age&#x65B9;&#x6CD5;&#x88AB;&#x6267;&#x884C;</span>
+<span class="hljs-comment"># &#x5B59;&#x609F;&#x7A7A; 28</span>
+</code></pre>
+<hr>
+<p><strong>&#x4E8C;&#x3001;&#x7EE7;&#x627F;&#xFF1A;</strong>&#x901A;&#x8FC7;&#x7EE7;&#x627F;&#x53EF;&#x4EE5;&#x8BA9;&#x4E00;&#x4E2A;&#x7C7B;&#x83B7;&#x53D6;&#x5230;&#x5176;&#x4ED6;&#x7C7B;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x5B9A;&#x4E49;&#x7C7B;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x7C7B;&#x540D;&#x540E;&#x7684;&#x62EC;&#x53F7;&#x4E2D;&#x6307;&#x5B9A;&#x5F53;&#x524D;&#x7C7B;&#x7684;&#x7236;&#x7C7B;&#xFF08;&#x4E5F;&#x8BD1;&#x4E3A;&#x8D85;&#x7C7B;&#x3001;&#x57FA;&#x7C7B;&#x3001;super&#xFF09;&#xFF0C;&#x5B50;&#x7C7B;&#xFF08;&#x884D;&#x751F;&#x7C7B;&#xFF09;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7EE7;&#x627F;&#x7236;&#x7C7B;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&quot;I will run!&quot;</span>)
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">cry</span><span class="hljs-params">(self)</span>:</span>
+        print(<span class="hljs-string">&quot;I am cry!&quot;</span>)
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span><span class="hljs-params">(Animal)</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say</span><span class="hljs-params">(self,name)</span>:</span>
+        print(<span class="hljs-string">&quot;Hello! My name is %s.&quot;</span>%name)
+
+erha = Dog()
+erha.say(<span class="hljs-string">&apos;erha&apos;</span>)<span class="hljs-comment"># Hello! My name is erha.</span>
+
+<span class="hljs-comment"># &#x6D4B;&#x8BD5;&#x5B50;&#x7C7B;&#x80FD;&#x5426;&#x4F7F;&#x7528;&#x7236;&#x7C7B;&#x5F97;&#x65B9;&#x6CD5;</span>
+erha.run()<span class="hljs-comment"># I will run! </span>
+<span class="hljs-comment"># &#x6D4B;&#x8BD5;&#x6210;&#x529F;</span>
+</code></pre>
+<p>&#x5728;&#x521B;&#x5EFA;&#x7C7B;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x7701;&#x7565;&#x4E86;&#x7236;&#x7C7B;&#xFF0C;&#x5219;&#x9ED8;&#x8BA4;&#x7236;&#x7C7B;&#x4E3A;object&#xFF0C; object&#x662F;&#x6240;&#x6709;&#x7C7B;&#x7684;&#x7236;&#x7C7B;&#xFF0C;&#x6240;&#x6709;&#x7C7B;&#x90FD;&#x7EE7;&#x627F;&#x81EA;object&#x3002;  Python&#x63D0;&#x4F9B;&#x4E86; issubclass() &#x68C0;&#x67E5;&#x4E00;&#x4E2A;&#x7C7B;&#x662F;&#x5426;&#x662F;&#x53E6;&#x4E00;&#x4E2A;&#x7C7B;&#x7684;&#x5B50;&#x7C7B;&#x3002;</p>
+<pre><code class="lang-python">a = issubclass(Animal,object)
+print(a)<span class="hljs-comment"># True</span>
+b = issubclass(Dog,Animal)
+print(b)<span class="hljs-comment"># True</span>
+<span class="hljs-comment"># &#x7ED3;&#x8BBA;&#xFF1A;&#x9A8C;&#x8BC1;&#x6210;&#x529F;</span>
+</code></pre>
+<p><strong>isinstance()</strong>&#x7528;&#x6765;&#x68C0;&#x67E5;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x662F;&#x4E00;&#x4E2A;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;,&#x5982;&#x679C;&#x8FD9;&#x4E2A;&#x7C7B;&#x662F;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x7236;&#x7C7B;&#xFF0C;&#x4E5F;&#x4F1A;&#x8FD4;&#x56DE;True,&#x6240;&#x6709;&#x7684;&#x5BF9;&#x8C61;&#x90FD;&#x662F;object&#x7684;&#x5B9E;&#x4F8B;&#x3002;</p>
+<p><em>override</em>&#x65B9;&#x6CD5;&#x91CD;&#x5199;&#xFF1A;&#x82E5;&#x5B50;&#x7C7B;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x548C;&#x7236;&#x7C7B;&#x4E2D;&#x65B9;&#x6CD5;&#x540C;&#x540D;&#xFF0C;&#x5219;&#x901A;&#x8FC7;&#x5B50;&#x7C7B;&#x5B9E;&#x4F8B;&#x53BB;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x8C03;&#x7528;&#x7684;&#x662F;&#x5B50;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x8FD9;&#x4E2A;&#x7279;&#x70B9;&#x53EB;&#x505A;&#x65B9;&#x6CD5;&#x7684;&#x91CD;&#x5199;&#x3002;</p>
+<p>&#x7B80;&#x5355;&#x8BF4;&#x6765;&#x5C31;&#x662F;&#xFF0C;&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#x5F97;&#x65F6;&#x5019;&#xFF0C;&#x9996;&#x5148;&#x8BBF;&#x95EE;&#x521B;&#x5EFA;&#x5F53;&#x524D;&#x5BF9;&#x8C61;&#x7684;&#x7C7B;&#xFF0C;&#x5982;&#x679C;&#x65B9;&#x6CD5;&#x5B58;&#x5728;&#xFF0C;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#xFF1B;&#x5426;&#x8005;&#x8BBF;&#x95EE;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x7236;&#x7C7B;&#xFF0C;&#x5982;&#x679C;&#x7236;&#x7C7B;&#x4E2D;&#x6709;&#x8BE5;&#x65B9;&#x6CD5;&#xFF0C;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#xFF1B;&#x5426;&#x8005;&#x8BBF;&#x95EE;&#x7236;&#x7C7B;&#x7684;&#x7236;&#x7C7B;&#xFF08;&#x5F53;&#x524D;&#x7C7B;&#x7684;&#x7956;&#x7236;&#x7C7B;&#xFF09;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x5C31;&#x8C03;&#x7528;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5C31;&#x7EE7;&#x7EED;&#x5F80;&#x4E0A;&#x8BBF;&#x95EE;&#xFF0C;&#x76F4;&#x5230;&#x8BBF;&#x95EE;&#x5230;object&#xFF0C;&#x5982;&#x679C;&#x4F9D;&#x7136;&#x6CA1;&#x6709;&#x8BE5;&#x65B9;&#x6CD5;&#x5219;&#x62A5;&#x9519;&#x3002;</p>
+<p><img src="https://i.loli.net/2020/02/29/IGFpLo8UjriZcda.png" alt="&#x5BF9;s&#x8C61;.PNG" style="zoom: 50%;"></p>
+<p><strong><em>&#x5C5E;&#x6027;&#x7684;&#x6269;&#x5C55;</em></strong>&#xFF1A;&#x7236;&#x7C7B;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x65B9;&#x6CD5;&#x90FD;&#x4F1A;&#x88AB;&#x5B50;&#x7C7B;&#x7EE7;&#x627F;&#xFF0C;&#x5305;&#x62EC;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#xFF0C;&#x5F53;&#x7136;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x4E5F;&#x53EF;&#x4EE5;&#x91CD;&#x5199;&#x3002;&#x524D;&#x9762;&#x6211;&#x4EEC;&#x8BF4;&#x4E86;&#xFF0C;&#x5C5E;&#x6027;&#x901A;&#x5E38;&#x653E;&#x5728;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;<strong>init</strong>&#x4E2D;&#xFF0C;&#x6240;&#x4EE5;&#x81EA;&#x7136;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x91CD;&#x5199;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#x6765;&#x8FBE;&#x5230;&#x5BF9;&#x5C5E;&#x6027;&#x7684;&#x6269;&#x5C55;&#x3002;</p>
+<pre><code class="lang-python"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span><span class="hljs-params">(Animal)</span>:</span>
+    <span class="hljs-comment"># &#x901A;&#x5E38;&#x5E0C;&#x671B;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#x7236;&#x7C7B;&#x7684;__init__&#x6765;&#x521D;&#x59CB;&#x5316;&#x7236;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x5C5E;&#x6027;</span>
+    <span class="hljs-comment"># super() &#x53EF;&#x4EE5;&#x7528;&#x6765;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7C7B;&#x7684;&#x7236;&#x7C7B;&#xFF0C;&#x5E76;&#x4E14;&#x901A;&#x8FC7;super()&#x65B9;&#x6CD5;&#x8C03;&#x7528;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;&#x65F6;&#x4E0D;&#x9700;&#x8981;&#x4F20;&#x9012; self</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self,name,age)</span>:</span>
+        super().__init__(name)
+        self.age = age
+</code></pre>
+<p>Python&#x652F;&#x6301;<strong><em>&#x591A;&#x91CD;&#x7EE7;&#x627F;</em></strong>&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x4E3A;&#x4E00;&#x4E2A;&#x7C7B;&#x540C;&#x65F6;&#x6307;&#x5B9A;&#x591A;&#x4E2A;&#x7236;&#x7C7B;&#x3002;&#x5728;&#x5F00;&#x53D1;&#x4E2D;&#x6CA1;&#x6709;&#x7279;&#x6B8A;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x5E94;&#x8BE5;&#x5C3D;&#x91CF;&#x907F;&#x514D;&#x4F7F;&#x7528;&#x591A;&#x91CD;&#x7EE7;&#x627F;&#xFF0C;&#x56E0;&#x4E3A;&#x591A;&#x91CD;&#x7EE7;&#x627F;&#x4F1A;&#x8BA9;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x7801;&#x8FC7;&#x4E8E;&#x590D;&#x6742;&#x3002;</p>
+<p><strong>&#x5B9E;&#x73B0;&#x65B9;&#x6CD5;</strong>&#xFF1A;&#x5728;&#x7C7B;&#x540D;&#x7684;( )&#x91CC;&#x8FB9;&#x6DFB;&#x52A0;&#x591A;&#x4E2A;&#x7C7B;&#xFF0C;&#x6765;&#x5B9E;&#x73B0;&#x591A;&#x91CD;&#x7EE7;&#x627F;&#xFF0C;&#x591A;&#x91CD;&#x7EE7;&#x627F;&#xFF0C;&#x4F1A;&#x4F7F;&#x5B50;&#x7C7B;&#x540C;&#x65F6;&#x62E5;&#x6709;&#x591A;&#x4E2A;&#x7236;&#x7C7B;&#xFF0C;&#x5E76;&#x4E14;&#x4F1A;&#x83B7;&#x53D6;&#x5230;&#x6240;&#x6709;&#x7236;&#x7C7B;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;</p>
+<p><strong>&#x67E5;&#x627E;&#x8DEF;&#x5F84;</strong>&#xFF1A;&#x7C7B;&#x540D;.<code>__bases__</code> &#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x7236;&#x7C7B;,&#x6839;&#x636E;&#x7236;&#x7C7B;&#x7684;&#x6DFB;&#x52A0;&#x987A;&#x5E8F;&#x4F5C;&#x4E3A;&#x4F18;&#x5148;&#x7EA7;&#x522B;&#x3002;</p>
+<hr>
+<p>&#x4E09;&#x3001;<strong>&#x591A;&#x6001;</strong></p>
+<p>&#x4E0D;&#x540C;&#x7684;&#x5B50;&#x7C7B;&#x5BF9;&#x8C61;&#x8C03;&#x7528;&#x76F8;&#x540C;&#x7684;&#x7236;&#x7C7B;&#x65B9;&#x6CD5;&#x79F0;&#x4E3A;&#x591A;&#x6001;&#xFF0C;&#x591A;&#x6001;&#x673A;&#x5236;&#x4F7F;&#x5F97;&#x5177;&#x6709;&#x4E0D;&#x540C;&#x5185;&#x90E8;&#x7ED3;&#x6784;&#x7684;&#x5BF9;&#x8C61;&#x53EF;&#x4EE5;&#x5171;&#x4EAB;&#x76F8;&#x540C;&#x7684;&#x5916;&#x90E8;&#x63A5;&#x53E3;&#x3002;</p>
+<p>&#x867D;&#x7136;&#x9488;&#x5BF9;&#x4E0D;&#x540C;&#x5BF9;&#x8C61;&#x7684;&#x5177;&#x4F53;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#x4E0D;&#x540C;&#xFF0C;&#x4E0D;&#x8FC7;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x516C;&#x5171;&#x7684;&#x7C7B;&#xFF08;&#x7236;&#x7C7B;&#xFF09;&#xFF0C;&#xFF08;&#x90A3;&#x4E9B;&#x64CD;&#x4F5C;&#xFF09;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x76F8;&#x540C;&#x7684;&#x65B9;&#x5F0F;&#x8C03;&#x7528;&#x3002;</p>
+<p><strong>&#x591A;&#x6001;&#x7684;&#x4F5C;&#x7528;</strong>&#xFF1A;&#x8BA9;&#x5177;&#x6709;&#x7EC6;&#x5FAE;&#x4E0D;&#x540C;&#x529F;&#x80FD;&#x7684;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x51FD;&#x6570;&#x540D;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x7528;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x540D;&#x8C03;&#x7528;&#x4E0D;&#x540C;&#x529F;&#x80FD;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x800C;&#x4E0D;&#x7528;&#x53BB;&#x7BA1;&#x662F;&#x5426;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x7C7B;&#x7B49;&#x7EC6;&#x8282;&#x3002; </p>
+<p>1&#x3001;&#x591A;&#x6001;&#x662F;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#x7684;&#x6280;&#x5DE7;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x7C7B;&#x7684;&#x5185;&#x90E8;&#x8BBE;&#x8BA1;&#xFF1B;</p>
+<p>2&#x3001;&#x53EA;&#x5173;&#x5FC3;&#x5BF9;&#x8C61;&#x7684;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;&#x662F;&#x5426;&#x540C;&#x540D;&#xFF0C;&#x4E0D;&#x5173;&#x5FC3;&#x5BF9;&#x8C61;&#x6240;&#x5C5E;&#x7684;&#x7C7B;&#x578B;&#xFF1B;</p>
+<p>3&#x3001;&#x5BF9;&#x8C61;&#x6240;&#x5C5E;&#x7684;&#x7C7B;&#x4E4B;&#x95F4;&#xFF0C;&#x7EE7;&#x627F;&#x5173;&#x7CFB;&#x53EF;&#x6709;&#x53EF;&#x65E0;&#xFF1B;</p>
+<p>4&#x3001;&#x591A;&#x6001;&#x7684;&#x597D;&#x5904;&#x53EF;&#x4EE5;&#x589E;&#x52A0;&#x4EE3;&#x7801;&#x7684;&#x5916;&#x90E8;&#x8C03;&#x7528;&#x7075;&#x6D3B;&#x5EA6;&#xFF0C;&#x8BA9;&#x4EE3;&#x7801;&#x66F4;&#x52A0;&#x901A;&#x7528;&#xFF0C;&#x517C;&#x5BB9;&#x6027;&#x6BD4;&#x8F83;&#x5F3A;&#xFF1B;</p>
+<p><strong>&#x591A;&#x6001;&#x7684;&#x5177;&#x4F53;&#x4F53;&#x73B0;</strong>&#xFF1A;<code>len()&#x51FD;&#x6570;</code></p>
+<pre><code class="lang-python">l = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]
+s = <span class="hljs-string">&apos;hello&apos;</span>
+print(len(l))
+print(len(s))
+</code></pre>
+<p>l&#x548C;s&#x5206;&#x522B;&#x5C5E;&#x4E8E;&#x5217;&#x8868;&#x548C;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x800C;&#x6211;&#x4EEC;&#x90FD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;len&#x51FD;&#x6570;&#x6765;&#x8BA1;&#x7B97;&#x4ED6;&#x4EEC;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x5374;&#x4E0D;&#x5FC5;&#x5173;&#x5FC3;&#x4ED6;&#x4EEC;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;&#x7C7B;&#x578B;&#xFF0C;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x53EA;&#x8981;&#x5BF9;&#x8C61;&#x4E2D;&#x5177;&#x6709;<strong>len</strong>&#x7279;&#x6B8A;&#x65B9;&#x6CD5;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;len()&#x6765;&#x83B7;&#x53D6;&#x5B83;&#x7684;&#x957F;&#x5EA6;&#x3002;</p>
+<p>&#x6CE8;&#x91CA;&#xFF1A;&#x4E4B;&#x6240;&#x4EE5;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x80FD;&#x901A;&#x8FC7;len()&#x6765;&#x83B7;&#x53D6;&#x957F;&#x5EA6;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x5BF9;&#x8C61;&#x4E2D;&#x5177;&#x6709;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x65B9;&#x6CD5;<code>__len__</code></p>
+<h2 id="&#x53EF;&#x53D8;&#x5BF9;&#x8C61;">&#x53EF;&#x53D8;&#x5BF9;&#x8C61;</h2>
+<p>Python&#x4E2D;&#x4E00;&#x5207;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#xFF0C;&#x53D8;&#x91CF;&#x4E2D;&#x5B58;&#x653E;&#x7684;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;Python&#x7684;&#x201C;&#x52A8;&#x6001;&#x7C7B;&#x578B;&#x201D;&#x673A;&#x5236;&#xFF0C;&#x8D1F;&#x8D23;&#x68C0;&#x67E5;&#x53D8;&#x91CF;&#x7684;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x64CD;&#x4F5C;&#x3002;&#x52A8;&#x6001;&#x7C7B;&#x578B;&#x673A;&#x5236;&#x6709;&#x522B;&#x4E8E;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x7684;&#x9759;&#x6001;&#x7C7B;&#x578B;&#xFF0C;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5904;&#x5728;&#x53D8;&#x5316;&#x4E2D;&#x7684;&#xFF0C;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x624D;&#x80FD;&#x77E5;&#x9053;&#x8BE5;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x5462;&#xFF1F;&#x53EA;&#x6709;&#x6211;&#x4EEC;&#x5BF9;&#x5176;&#x8D4B;&#x503C;&#x6216;&#x8005;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x5F15;&#x7528;&#x7684;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x624D;&#x80FD;&#x77E5;&#x9053;&#x8FD9;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x6709;&#x6CA1;&#x6709;&#x4E00;&#x70B9;&#x859B;&#x5B9A;&#x8C14;&#x7684;&#x732B;&#x7684;&#x611F;&#x89C9;&#xFF01;</p>
+<pre><code>1&#x3001;&#x6BCF;&#x4E2A;&#x5BF9;&#x8C61;&#x4E2D;&#x90FD;&#x4FDD;&#x5B58;&#x4E86;&#x4E09;&#x4E2A;&#x6570;&#x636E;&#xFF1A;
+    id&#xFF08;&#x6807;&#x8BC6;&#xFF09;
+    type&#xFF08;&#x7C7B;&#x578B;&#xFF09;
+    value&#xFF08;&#x503C;&#xFF09;    
+
+2&#x3001;&#x5217;&#x8868;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;
+    a = [1,2,3]
+
+3&#x3001;a[0] = 10 &#xFF08;&#x6539;&#x5BF9;&#x8C61;&#xFF09;
+    - &#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x662F;&#x5728;&#x901A;&#x8FC7;&#x53D8;&#x91CF;&#x53BB;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x7684;&#x503C;
+    - &#x8FD9;&#x79CD;&#x64CD;&#x4F5C;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x53D8;&#x91CF;&#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;    
+    - &#x5F53;&#x6211;&#x4EEC;&#x53BB;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x5176;&#x4ED6;&#x53D8;&#x91CF;&#x4E5F;&#x6307;&#x5411;&#x4E86;&#x8BE5;&#x5BF9;&#x8C61;&#xFF0C;&#x5219;&#x4FEE;&#x6539;&#x4E5F;&#x4F1A;&#x5728;&#x5176;&#x4ED6;&#x7684;&#x53D8;&#x91CF;&#x4E2D;&#x4F53;&#x73B0;
+
+4&#x3001; a = [4,5,6] &#xFF08;&#x6539;&#x53D8;&#x91CF;&#xFF09;
+    - &#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x662F;&#x5728;&#x7ED9;&#x53D8;&#x91CF;&#x91CD;&#x65B0;&#x8D4B;&#x503C;
+    - &#x8FD9;&#x79CD;&#x64CD;&#x4F5C;&#x4F1A;&#x6539;&#x53D8;&#x53D8;&#x91CF;&#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;
+    - &#x4E3A;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x65F6;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5176;&#x4ED6;&#x7684;&#x53D8;&#x91CF;
+    - &#x4E00;&#x822C;&#x53EA;&#x6709;&#x5728;&#x4E3A;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x65F6;&#x624D;&#x662F;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#xFF0C;&#x5176;&#x4F59;&#x7684;&#x90FD;&#x662F;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;
+</code></pre><p>&#x91CD;&#x70B9;&#x8BF4;&#x4E00;&#x4E0B;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x548C;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#x7684;&#x533A;&#x522B;&#xFF0C;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x662F;&#x5BF9;&#x53D8;&#x91CF;&#x5F15;&#x7528;&#x7684;<code>&#x672C;&#x8EAB;</code>(&#x5373;&#x5BF9;&#x8C61;&#x672C;&#x8EAB;)&#x7684;&#x4FEE;&#x6539;&#xFF0C;&#x800C;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#x662F;&#x6307;&#x5BF9;&#x4E8E;<code>&#x53D8;&#x91CF;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;</code>&#x7684;&#x4FEE;&#x6539;&#x3002;</p>
+<p><img src="https://i.loli.net/2020/01/23/dlOcKvTIVAiB8qU.png" alt="1.PNG"></p>
+<p>&#x5BF9;&#x8C61;&#x548C;&#x53D8;&#x91CF;&#x4E4B;&#x95F4;&#x662F;&#x6709;&#x533A;&#x522B;&#x7684;&#xFF1A;  </p>
+<p>Python&#x901A;&#x8FC7;&#x53D8;&#x91CF;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;</p>
+<p>Python&#x4E2D;&#x82E5;&#x8981;&#x4F7F;&#x7528;&#x53D8;&#x91CF;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x63D0;&#x524D;&#x58F0;&#x660E;&#xFF0C;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x6307;&#x5B9A;&#x7C7B;&#x578B;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5728;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7ED9;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x5373;&#x53EF;&#x3002;  </p>
+<p>Python&#x4E2D;&#x4E00;&#x5207;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#xFF0C;&#x8D4B;&#x503C;&#x7684;&#x4F5C;&#x7528;&#x662F;&#x8BA9;<code>&#x53D8;&#x91CF;&#x6307;&#x9488;</code>&#x6307;&#x5411;&#x67D0;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;<code>&#x53D8;&#x91CF;(a)</code>&#x4E2D;&#x5B58;&#x653E;&#x7740;<code>&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;([1,2,3])</code>&#xFF0C;&#x800C;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x662F;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;<br>&#x4F8B;&#x5982;&#xFF1A; <code>a = [1,2,3]</code><br>&#x5206;&#x6210;&#x4E09;&#x5757;&#x6765;&#x770B;&#xFF1A;<br><code>a</code>      &#x53D8;&#x91CF;&#xFF0C;&#x53D8;&#x91CF;&#x540D;&#x4E3A;a<br><code>=</code>      &#x8D4B;&#x503C;&#xFF0C;&#x4F7F;a&#x6307;&#x5411;<code>[1,2,3]</code><br><code>[1,2,3]</code> &#x5BF9;&#x8C61;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;a&#x6765;&#x8FDB;&#x884C;&#x5F15;&#x7528;  </p>
+<pre><code class="lang-py"> <span class="hljs-comment"># &#x4FEE;&#x6539;&#x5217;&#x8868;&#xFF1A;</span>
+ a = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]
+print(<span class="hljs-string">&apos;&#x4FEE;&#x6539;&#x524D;&#xFF1A;&apos;</span>, a , id(a))<span class="hljs-comment">#&#x4FEE;&#x6539;&#x524D;&#xFF1A; [1, 2, 3] 2659098571080</span>
+
+a[<span class="hljs-number">0</span>] = <span class="hljs-number">10</span>
+print(<span class="hljs-string">&apos;&#x4FEE;&#x6539;&#x540E;&#xFF1A;&apos;</span>, a , id(a))<span class="hljs-comment">#&#x4FEE;&#x6539;&#x540E;&#xFF1A; [10, 2, 3] 2659098571080</span>
+
+&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#x4FEE;&#x6539;&#x5217;&#x8868;&#x4E4B;&#x540E;&#x5217;&#x8868;&#x7684;id&#x5E76;&#x6CA1;&#x6709;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF0C;&#x901A;&#x8FC7;&#x8BE5;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x7684;&#x503C;&#xFF08;value&#xFF09;&#x3002;
+</code></pre>
+<p>&#x901A;&#x8FC7;<code>a[0] = 10</code> &#xFF08;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x503C;&#xFF09;</p>
+<ul>
+<li>a[0] = 10 &#xFF08;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x503C;&#xFF09;  <ul>
+<li>&#x4F5C;&#x7528;&#xFF1A;&#x901A;&#x8FC7;&#x53D8;&#x91CF;&#x53BB;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x7684;&#x503C;  </li>
+<li>&#x6548;&#x679C;&#xFF1A;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x53D8;&#x91CF;&#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;<br><img src="https://i.loli.net/2020/01/23/UHpIGegu1iobCE4.png" alt="2.PNG">
+&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;a&#x548C;b&#x7684;id&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x8BF4;&#x660E;&#xFF0C;&#x6B64;&#x65F6;a&#x548C;b&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x3002;</li>
+<li>&#x5F53;&#x6211;&#x4EEC;&#x53BB;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x5176;&#x4ED6;&#x53D8;&#x91CF;&#x4E5F;&#x6307;&#x5411;&#x4E86;&#x8BE5;&#x5BF9;&#x8C61;&#xFF0C;&#x5219;&#x4FEE;&#x6539;&#x4E5F;&#x4F1A;&#x5728;&#x5176;&#x4ED6;&#x7684;&#x53D8;&#x91CF;&#x4E2D;&#x4F53;&#x73B0;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<p>&#x901A;&#x8FC7;<code>b = [10,2,3]</code>&#xFF08;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#x6307;&#x9488;&#xFF09; </p>
+<ul>
+<li>b = [10,2,3]&#xFF08;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#x6307;&#x9488;&#xFF09; <ul>
+<li>&#x4F5C;&#x7528;&#xFF1A;&#x7ED9;&#x53D8;&#x91CF;&#x91CD;&#x65B0;&#x8D4B;&#x503C;  </li>
+<li>&#x7ED3;&#x679C;&#xFF1A;&#x4F1A;&#x6539;&#x53D8;&#x53D8;&#x91CF;&#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;<br><img src="https://i.loli.net/2020/01/23/WLp2oBAZXCjwzs5.png" alt="3.PNG"></li>
+<li>&#x4E3A;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x65F6;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5176;&#x4ED6;&#x7684;&#x53D8;&#x91CF;</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="语句函数综合.html" class="navigation navigation-prev " aria-label="Previous page: 语句函数综合">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Promote/" class="navigation navigation-next " aria-label="Next page: Python第三部分">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"面向对象编程","level":"1.3.2","depth":2,"next":{"title":"Python第三部分","level":"1.4","depth":1,"path":"Promote/README.md","ref":"Promote/README.md","articles":[]},"previous":{"title":"语句函数综合","level":"1.3.1","depth":2,"path":"Grammar/语句函数综合.md","ref":"Grammar/语句函数综合.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Grammar/面向对象编程.md","mtime":"2020-07-18T07:58:44.839Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-19T02:44:53.019Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
